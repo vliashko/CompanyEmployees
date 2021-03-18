@@ -26,18 +26,11 @@ namespace CompanyEmployees.Controllers
         [HttpGet]
         public IActionResult GetCompanies()
         {
-            try
-            {
-                var companies = repository.Company.GetAllCompanies(trackChanges: false);
-                var companiesDto = mapper.Map<IEnumerable<CompanyDto>>(companies);
+            //var companies = repository.Company.GetAllCompanies(trackChanges: false);
+            //var companiesDto = mapper.Map<IEnumerable<CompanyDto>>(companies);
 
-                return Ok(companiesDto);
-            }
-            catch(Exception ex)
-            {
-                logger.LogError($"Something went wrong in the {nameof(GetCompanies)} action {ex}");
-                return StatusCode(500, "Iternal server error");
-            }
+            //return Ok(companiesDto);
+            throw new Exception("Exception");
         }
     }
 }
