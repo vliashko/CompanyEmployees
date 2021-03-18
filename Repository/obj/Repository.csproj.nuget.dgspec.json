@@ -32,7 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\tut\\Ultimate\\CompanyEmployees\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\tut\\Ultimate\\CompanyEmployees\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -69,3 +69,7 @@ C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\n
 C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Entities.pdb
 C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Humanizer.dll
 C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Repository.dll
+C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Repository.pdb
+C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
