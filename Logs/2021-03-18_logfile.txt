@@ -1,0 +1,4 @@
+2021-03-18 12:24:14.4248 INFO Here is info message from our values controller
+2021-03-18 12:24:14.4872 DEBUG Here is debug message from our values controller.
+2021-03-18 12:24:14.4872 WARN Here is warn message from our values controller.
+2021-03-18 12:24:14.5084 ERROR Here is an error message from our values controller.

@@ -27,3 +27,11 @@ C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\obj\Debug\n
 C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\obj\Debug\net5.0\ref\CompanyEmployees.dll
 C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\obj\Debug\net5.0\CompanyEmployees.pdb
 C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\obj\Debug\net5.0\CompanyEmployees.genruntimeconfig.cache
+C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\nlog.config
+C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\appsettings.Production.json
+C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\NLog.dll
+C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\NLog.Extensions.Logging.dll
+C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Contracts.dll
+C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\LoggerService.dll
+C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\LoggerService.pdb
+C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Contracts.pdb
