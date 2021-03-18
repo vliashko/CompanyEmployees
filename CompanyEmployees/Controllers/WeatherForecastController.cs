@@ -1,9 +1,6 @@
 ﻿using Contracts;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace CompanyEmployees.Controllers
 {
@@ -11,26 +8,15 @@ namespace CompanyEmployees.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
+        private readonly IRepositoryManager repository;
+        public WeatherForecastController(IRepositoryManager repository)
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
-        private readonly ILoggerManager logger;
-
-        public WeatherForecastController(ILoggerManager logger)
-        {
-            this.logger = logger;
+            this.repository = repository;
         }
 
         [HttpGet]
-        public IEnumerable<string> Get()
+        public ActionResult<IEnumerable<string>> Get()
         {
-            logger.LogInfo("Here is info message from our values controller");
-            logger.LogDebug("Here is debug message from our values controller."); 
-            logger.LogWarn("Here is warn message from our values controller."); 
-            logger.LogError("Here is an error message from our values controller.");
-
             return new string[] { "value1", "value2" };
         }
     }
