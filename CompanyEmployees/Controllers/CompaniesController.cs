@@ -4,7 +4,6 @@ using Entities.DataTransferObjects;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace CompanyEmployees.Controllers
 {
@@ -26,11 +25,25 @@ namespace CompanyEmployees.Controllers
         [HttpGet]
         public IActionResult GetCompanies()
         {
-            //var companies = repository.Company.GetAllCompanies(trackChanges: false);
-            //var companiesDto = mapper.Map<IEnumerable<CompanyDto>>(companies);
+            var companies = repository.Company.GetAllCompanies(trackChanges: false);
+            var companiesDto = mapper.Map<IEnumerable<CompanyDto>>(companies);
 
-            //return Ok(companiesDto);
-            throw new Exception("Exception");
+            return Ok(companiesDto);
+        }
+        [HttpGet("{id}")]
+        public IActionResult GetCompany(Guid id)
+        {
+            var company = repository.Company.GetCompany(id, trackChanges: false);
+            if(company == null)
+            {
+                logger.LogInfo($"Company with id: {id} doesn't exist in the database");
+                return NotFound();
+            }
+            else
+            {
+                var companyDto = mapper.Map<CompanyDto>(company);
+                return Ok(companyDto);
+            }
         }
     }
 }

@@ -9,3 +9,4 @@ C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\Entities\obj\Debug\netcoreap
 C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache
+C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
