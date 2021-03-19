@@ -1,9 +1,12 @@
 ﻿using AutoMapper;
+using CompanyEmployees.ModelBinders;
 using Contracts;
 using Entities.DataTransferObjects;
+using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CompanyEmployees.Controllers
 {
@@ -30,7 +33,7 @@ namespace CompanyEmployees.Controllers
 
             return Ok(companiesDto);
         }
-        [HttpGet("{id}")]
+        [HttpGet("{id}", Name = "CompanyById")]
         public IActionResult GetCompany(Guid id)
         {
             var company = repository.Company.GetCompany(id, trackChanges: false);
@@ -44,6 +47,64 @@ namespace CompanyEmployees.Controllers
                 var companyDto = mapper.Map<CompanyDto>(company);
                 return Ok(companyDto);
             }
+        }
+        [HttpPost]
+        public IActionResult CreateCompany([FromBody]CompanyForCreationDto company)
+        {
+            if(company == null)
+            {
+                logger.LogError("CompanyForCreationDto object sent from client  null.");
+                return BadRequest("CompanyForCreationDto object is null");
+            }
+            var companyEntity = mapper.Map<Company>(company);
+            repository.Company.CreateCompany(companyEntity);
+            repository.Save();
+
+            var companyToReturn = mapper.Map<CompanyDto>(companyEntity);
+
+            return CreatedAtRoute("CompanyById", new { id = companyToReturn.Id }, companyToReturn);
+        }
+        [HttpGet("collection/({ids})", Name = "CompanyCollection")]
+        public IActionResult GetCompanyCollection([ModelBinder(BinderType = typeof(ArrayModelBinder))]IEnumerable<Guid> ids)
+        {
+            if(ids == null)
+            {
+                logger.LogError("Parameter ids is null.");
+                return BadRequest("Parameter ids is null");
+            }
+
+            var companyEntities = repository.Company.GetByIds(ids, trackChanges: false);
+
+            if(ids.Count() != companyEntities.Count())
+            {
+                logger.LogError("Some ids are not valid in a collection.");
+                return NotFound();
+            }
+
+            var companiesToReturn = mapper.Map<IEnumerable<CompanyDto>>(companyEntities);
+
+            return Ok(companiesToReturn);
+        }
+        [HttpPost("collection")]
+        public IActionResult CreateCompanyCollection([FromBody]IEnumerable<CompanyForCreationDto> companyCollection)
+        {
+            if(companyCollection == null)
+            {
+                logger.LogError("Company collection sent from client is null.");
+                return BadRequest("Company collection is null");
+            }
+
+            var companyEntities = mapper.Map<IEnumerable<Company>>(companyCollection);
+            foreach (var company in companyEntities)
+            {
+                repository.Company.CreateCompany(company);
+            }
+            repository.Save();
+
+            var companyCollectionToReturn = mapper.Map<IEnumerable<CompanyDto>>(companyEntities);
+            var ids = string.Join(",", companyCollectionToReturn.Select(c => c.Id));
+
+            return CreatedAtRoute("CompanyCollection", new { ids }, companyCollectionToReturn);
         }
     }
 }
