@@ -5692,25 +5692,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\tut\\Ultimate\\CompanyEmployees\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\User\\Desktop\\tut\\Ultimate\\CompanyEmployees\\Repository\\Repository.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\tut\\Ultimate\\CompanyEmployees\\Repository\\obj\\",
+      "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Repository\\Repository.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5725,11 +5723,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\tut\\Ultimate\\CompanyEmployees\\Contracts\\Contracts.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\tut\\Ultimate\\CompanyEmployees\\Contracts\\Contracts.csproj"
+            "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj"
             },
-            "C:\\Users\\User\\Desktop\\tut\\Ultimate\\CompanyEmployees\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\tut\\Ultimate\\CompanyEmployees\\Entities\\Entities.csproj"
+            "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj"
             }
           }
         }
@@ -5758,7 +5756,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

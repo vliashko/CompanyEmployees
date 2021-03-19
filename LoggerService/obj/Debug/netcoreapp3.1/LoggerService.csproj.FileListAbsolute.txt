@@ -12,3 +12,17 @@ C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\LoggerService\obj\Debug\netc
 C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CopyComplete
 C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.dll
 C:\Users\User\Desktop\tut\Ultimate\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.pdb
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.deps.json
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.dll
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.pdb
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\Contracts.dll
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\Contracts.pdb
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.dll
+C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.pdb

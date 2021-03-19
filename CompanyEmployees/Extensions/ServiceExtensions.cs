@@ -41,5 +41,7 @@ namespace CompanyEmployees.Extensions
         {
             services.AddScoped<IRepositoryManager, RepositoryManager>();
         }
+        public static IMvcBuilder AddCustomCSVFormatter(this IMvcBuilder builder) =>
+            builder.AddMvcOptions(config => config.OutputFormatters.Add(new CsvOutputFormatter()));
     }
 }
