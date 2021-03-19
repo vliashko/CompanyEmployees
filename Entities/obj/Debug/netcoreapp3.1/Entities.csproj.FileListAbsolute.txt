@@ -22,3 +22,15 @@ C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1
 C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
 C:\Users\Lenovo\Desktop\WebApp\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.csprojAssemblyReference.cache
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache

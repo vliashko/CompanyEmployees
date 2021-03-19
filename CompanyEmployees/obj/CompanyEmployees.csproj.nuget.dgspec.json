@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj": {}
+    "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj": {
+    "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
         "projectName": "CompanyEmployees",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\CompanyEmployees\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\CompanyEmployees\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,11 +33,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\LoggerService\\LoggerService.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\LoggerService\\LoggerService.csproj"
+              "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\LoggerService\\LoggerService.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\LoggerService\\LoggerService.csproj"
               },
-              "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Repository\\Repository.csproj"
+              "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Repository\\Repository.csproj"
               }
             }
           }
@@ -84,24 +85,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -116,8 +118,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj"
+              "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj"
               }
             }
           }
@@ -146,24 +148,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj": {
+    "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -220,24 +223,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\LoggerService\\LoggerService.csproj": {
+    "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\LoggerService\\LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\LoggerService\\LoggerService.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\LoggerService\\LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\LoggerService\\LoggerService.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\LoggerService\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\LoggerService\\LoggerService.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\LoggerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -252,8 +256,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj"
+              "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj"
               }
             }
           }
@@ -288,24 +292,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Repository\\Repository.csproj": {
+    "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -320,11 +325,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj"
+              "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Contracts\\Contracts.csproj"
               },
-              "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Lenovo\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj"
+              "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\Entities\\Entities.csproj"
               }
             }
           }
@@ -353,7 +358,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
