@@ -17,6 +17,14 @@ namespace Entities
         {
             modelBuilder.ApplyConfiguration(new CompanyConfiguration());
             modelBuilder.ApplyConfiguration(new EmployeeConfiguration());
+            modelBuilder.Entity("Entities.Models.Employee", b =>
+            {
+                b.HasOne("Entities.Models.Company", "Company")
+                    .WithMany("Employees")
+                    .HasForeignKey("CompanyId")
+                    .OnDelete(DeleteBehavior.Cascade)
+                    .IsRequired();
+            });
         }
     }
 }
