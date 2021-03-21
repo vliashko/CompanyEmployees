@@ -32,6 +32,7 @@ namespace CompanyEmployees
             services.ConfigureLoggerService();
             services.ConfigireSqlContext(Configuration);
             services.ConfigureRepositoryManager();
+            services.ConfigureVersioning();
             services.AddAutoMapper(typeof(Startup));
 
             services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
