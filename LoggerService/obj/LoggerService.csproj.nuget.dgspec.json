@@ -122,6 +122,10 @@
         "net5.0": {
           "targetAlias": "netcoreapp5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
               "version": "[5.0.4, )"

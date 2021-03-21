@@ -1,12 +1,13 @@
 ﻿using Entities.Configurations;
 using Entities.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Entities
 {
-    public class RepositoryDbContext : DbContext
+    public class RepositoryDbContext : IdentityDbContext<User>
     {
-        public RepositoryDbContext(DbContextOptions<RepositoryDbContext> options) : base(options)
+        public RepositoryDbContext(DbContextOptions options) : base(options)
         {
         }
         
@@ -15,16 +16,11 @@ namespace Entities
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.ApplyConfiguration(new CompanyConfiguration());
             modelBuilder.ApplyConfiguration(new EmployeeConfiguration());
-            modelBuilder.Entity("Entities.Models.Employee", b =>
-            {
-                b.HasOne("Entities.Models.Company", "Company")
-                    .WithMany("Employees")
-                    .HasForeignKey("CompanyId")
-                    .OnDelete(DeleteBehavior.Cascade)
-                    .IsRequired();
-            });
+            modelBuilder.ApplyConfiguration(new RoleConfiguration());
         }
     }
 }

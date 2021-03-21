@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NLog;
+using Repository;
 using Repository.DataShaping;
 using System.IO;
 
@@ -45,6 +46,12 @@ namespace CompanyEmployees
             services.AddScoped<ValidationFilterAttribute>();
             services.AddScoped<ValidateEmployeeForCompanyExistsAttribute>();
 
+            services.AddScoped<IAuthenticationManager, AuthenticationManager>();
+
+            services.AddAuthentication();
+            services.ConfigureIdentity();
+            services.ConfigureJWT(Configuration);
+
             services.AddControllers(config =>
             {
                 config.RespectBrowserAcceptHeader = true;
@@ -78,6 +85,7 @@ namespace CompanyEmployees
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

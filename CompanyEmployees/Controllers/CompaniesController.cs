@@ -4,6 +4,7 @@ using CompanyEmployees.ModelBinders;
 using Contracts;
 using Entities.DataTransferObjects;
 using Entities.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -20,15 +21,18 @@ namespace CompanyEmployees.Controllers
         private readonly IRepositoryManager repository;
         private readonly ILoggerManager logger;
         private readonly IMapper mapper;
+        private readonly IAuthenticationManager manager;
 
-        public CompaniesController(IRepositoryManager repository, ILoggerManager logger, IMapper mapper)
+        public CompaniesController(IRepositoryManager repository, ILoggerManager logger, 
+            IMapper mapper, IAuthenticationManager manager)
         {
             this.repository = repository;
             this.logger = logger;
             this.mapper = mapper;
+            this.manager = manager;
         }
 
-        [HttpGet]
+        [HttpGet(Name = "GetCompanies"), Authorize]
         public async Task<IActionResult> GetCompanies()
         {
             var companies = await repository.Company.GetAllCompaniesAsync(trackChanges: false);
