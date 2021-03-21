@@ -64,12 +64,18 @@ namespace CompanyEmployees.Controllers
             }
         }
         [HttpPost]
-        public IActionResult  CreateEmployeeForCompany(Guid companyId, [FromBody]EmployeeForCreationDto employee)
+        public IActionResult CreateEmployeeForCompany(Guid companyId, [FromBody]EmployeeForCreationDto employee)
         {
             if(employee == null)
             {
                 logger.LogError("EmployeeForCreationDto object sent from client is null.");
                 return BadRequest("EmployeeForCreationDto object is null");
+            }
+
+            if(!ModelState.IsValid)
+            {
+                logger.LogError("Invalid model state for EmployeeForCreationDto object.");
+                return UnprocessableEntity(ModelState);
             }
 
             var company = repository.Company.GetCompany(companyId, trackChanges: false);
@@ -119,7 +125,11 @@ namespace CompanyEmployees.Controllers
                 logger.LogError("EmployeeForUpdateDto object sent from client is null.");
                 return BadRequest("EmployeeForUpdateDto object is null");
             }
-
+            if (!ModelState.IsValid) 
+            { 
+                logger.LogError("Invalid model state for the EmployeeForUpdateDto object"); 
+                return UnprocessableEntity(ModelState); 
+            }
             var company = repository.Company.GetCompany(companyId, trackChanges: false);
             if(company == null)
             {
@@ -162,7 +172,14 @@ namespace CompanyEmployees.Controllers
             }
             var employeeToPatch = mapper.Map<EmployeeForUpdateDto>(employeeEntity);
 
-            patchDoc.ApplyTo(employeeToPatch);
+            patchDoc.ApplyTo(employeeToPatch, ModelState);
+            TryValidateModel(employeeToPatch);
+
+            if (!ModelState.IsValid) 
+            { 
+                logger.LogError("Invalid model state for the patch document"); 
+                return UnprocessableEntity(ModelState); 
+            }
 
             mapper.Map(employeeToPatch, employeeEntity);
 

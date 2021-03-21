@@ -223,3 +223,6 @@ C:\Users\User\Desktop\WebApp\CompanyEmployees\CompanyEmployees\obj\Debug\net5.0\
 C:\Users\User\Desktop\WebApp\CompanyEmployees\CompanyEmployees\obj\Debug\net5.0\ref\CompanyEmployees.dll
 C:\Users\User\Desktop\WebApp\CompanyEmployees\CompanyEmployees\obj\Debug\net5.0\CompanyEmployees.pdb
 C:\Users\User\Desktop\WebApp\CompanyEmployees\CompanyEmployees\obj\Debug\net5.0\CompanyEmployees.genruntimeconfig.cache
+C:\Users\User\Desktop\WebApp\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\CompanyEmployees\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
