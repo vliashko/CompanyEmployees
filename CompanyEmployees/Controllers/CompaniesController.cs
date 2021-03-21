@@ -3,6 +3,7 @@ using CompanyEmployees.ModelBinders;
 using Contracts;
 using Entities.DataTransferObjects;
 using Entities.Models;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;

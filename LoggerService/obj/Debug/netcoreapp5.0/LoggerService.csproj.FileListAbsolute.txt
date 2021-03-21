@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp5.0\LoggerService.deps.json
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp5.0\LoggerService.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp5.0\ref\LoggerService.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp5.0\LoggerService.pdb
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp5.0\Contracts.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp5.0\Entities.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp5.0\Contracts.pdb
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\bin\Debug\netcoreapp5.0\Entities.pdb
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp5.0\LoggerService.csprojAssemblyReference.cache
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp5.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp5.0\LoggerService.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp5.0\LoggerService.AssemblyInfo.cs
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp5.0\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp5.0\LoggerService.csproj.CopyComplete
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp5.0\LoggerService.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp5.0\ref\LoggerService.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\LoggerService\obj\Debug\netcoreapp5.0\LoggerService.pdb

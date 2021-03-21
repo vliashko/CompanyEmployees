@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEmployees", "CompanyEmployees\CompanyEmployees.csproj", "{69549BED-C38C-44C4-935B-CC779F8E3ACC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyEmployees", "CompanyEmployees\CompanyEmployees.csproj", "{69549BED-C38C-44C4-935B-CC779F8E3ACC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{6D5A688F-56F6-464E-8BE5-6C35FE71ABF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{6D5A688F-56F6-464E-8BE5-6C35FE71ABF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{DEB699D7-7BE2-422B-931E-1D0586880022}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{DEB699D7-7BE2-422B-931E-1D0586880022}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{9B531E1F-5AA4-4128-9D3E-AFC6FFC65B86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{9B531E1F-5AA4-4128-9D3E-AFC6FFC65B86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{D62F832C-42B8-4929-8AA0-F3A121040E48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{D62F832C-42B8-4929-8AA0-F3A121040E48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

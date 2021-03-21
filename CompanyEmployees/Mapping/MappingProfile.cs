@@ -18,7 +18,7 @@ namespace CompanyEmployees.Extensions
 
             CreateMap<EmployeeForCreationDto, Employee>();
 
-            CreateMap<EmployeeForUpdateDto, Employee>();
+            CreateMap<EmployeeForUpdateDto, Employee>().ReverseMap();
 
             CreateMap<CompanyForUpdateDto, Company>();
         }

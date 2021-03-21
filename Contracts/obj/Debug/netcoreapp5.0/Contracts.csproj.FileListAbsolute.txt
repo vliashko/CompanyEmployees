@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\bin\Debug\netcoreapp5.0\Contracts.deps.json
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\bin\Debug\netcoreapp5.0\Contracts.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\bin\Debug\netcoreapp5.0\ref\Contracts.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\bin\Debug\netcoreapp5.0\Contracts.pdb
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\bin\Debug\netcoreapp5.0\Entities.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\bin\Debug\netcoreapp5.0\Entities.pdb
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\obj\Debug\netcoreapp5.0\Contracts.csprojAssemblyReference.cache
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\obj\Debug\netcoreapp5.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\obj\Debug\netcoreapp5.0\Contracts.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\obj\Debug\netcoreapp5.0\Contracts.AssemblyInfo.cs
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\obj\Debug\netcoreapp5.0\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\obj\Debug\netcoreapp5.0\Contracts.csproj.CopyComplete
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\obj\Debug\netcoreapp5.0\Contracts.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\obj\Debug\netcoreapp5.0\ref\Contracts.dll
+C:\Users\User\Desktop\WebApp\CompanyEmployees\Contracts\obj\Debug\netcoreapp5.0\Contracts.pdb
