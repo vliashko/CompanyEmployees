@@ -34,6 +34,7 @@ namespace CompanyEmployees
             services.ConfigireSqlContext(Configuration);
             services.ConfigureRepositoryManager();
             services.ConfigureVersioning();
+            services.ConfigureSwagger();
             services.AddAutoMapper(typeof(Startup));
 
             services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
@@ -75,6 +76,13 @@ namespace CompanyEmployees
             app.ConfigureExceptionHandler(logger);
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(s => 
+            { 
+                s.SwaggerEndpoint("/swagger/v1/swagger.json", "Code Maze API v1");
+                s.SwaggerEndpoint("/swagger/v2/swagger.json", "Code Maze API v2");
+            });
 
             app.UseCors("CorsPolicy");
 
