@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2i3HwHZlpvLYkPo+P7p0mErnORYB1b9woCgWpKXBdkkMyw2vLxpzYOLgYU9xX8imcuF84r4/Rmk0uPHlezoVGw==",
+  "dgSpecHash": "zSU+8itZU+F8YxyPiiQeejfRfU0T2Ep7wuYSWJb7PDvcTjV44sZqpdKLc2ncI4HuttrKOR8cejjLYdR6Og9Cpg==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Desktop\\WebApp\\CompanyEmployees\\CompanyEmployees\\CompanyEmployees.csproj",
   "expectedPackageFiles": [
@@ -71,6 +71,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.linq.dynamic.core\\1.2.8\\system.linq.dynamic.core.1.2.8.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",

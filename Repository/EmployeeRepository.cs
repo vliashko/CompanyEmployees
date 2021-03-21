@@ -5,7 +5,6 @@ using Entities.RequestFeatures;
 using Microsoft.EntityFrameworkCore;
 using Repository.Extenstions;
 using System;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Repository
@@ -22,7 +21,7 @@ namespace Repository
                 FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
                 .FilterEmployees(employeeParameters.MinAge, employeeParameters.MaxAge)
                 .Search(employeeParameters.SearchTerm)
-                .OrderBy(e => e.Name)
+                .Sort(employeeParameters.OrderBy)
                 .ToListAsync();
             return PagedList<Employee>
                 .ToPagedList(employees, employeeParameters.PageNumber, employeeParameters.PageSize);
